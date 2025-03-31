@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "com.mr.flutter.plugin.filepicker"
     compileSdk 34
 
     defaultConfig {
